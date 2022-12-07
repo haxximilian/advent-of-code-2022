@@ -92,18 +92,3 @@ run({
   trimTestInputs: true,
   onlyTests: false,
 });
-
-// const crates = input.slice(0, input.indexOf("\n\n"));
-// const moves = input
-//   .slice(input.indexOf("\n\n") + 2, input.length)
-//   .split("\n");
-
-// for (let i = 0; i < moves.length; i++) {
-//   const amount = moves[i].slice(5, 6);
-//   const from = moves[i].slice(12, 13);
-//   const to = moves[i].slice(17, 18);
-
-//   const row = crates.split("\n").map((row) => row.trim());
-//   console.log(row);
-//   console.log(amount, from, to);
-// }
